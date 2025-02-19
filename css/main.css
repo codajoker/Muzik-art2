@@ -1372,7 +1372,20 @@ main {
   justify-content: center;
   background-color: var(--color-white);
 }
-
+.contacts-wrapper {
+  display: flex;
+  flex-direction: column;
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    gap: 40px;
+  }
+}
+.map {
+  @media screen and (min-width: 1200px) {
+    width: 700px;
+    height: 300px;
+  }
+}
 .contacts-container {
   width: 100%;
   max-width: 380px;
