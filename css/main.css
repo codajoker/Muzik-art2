@@ -4,7 +4,9 @@
   --color-accent: #d23d3e;
   --color-link: #737373;
 }
-
+a {
+  color: inherit;
+}
 body {
   font-family: "Montserrat", serif;
   letter-spacing: 0.2px;
